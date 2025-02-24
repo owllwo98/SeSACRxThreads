@@ -30,6 +30,10 @@
 		04F6DC022C5B0D8200667F4D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6DC012C5B0D8200667F4D /* DetailViewController.swift */; };
 		5E56EB522D65647300F31F5A /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB512D65647300F31F5A /* PhoneViewModel.swift */; };
 		5E56EB542D6573F800F31F5A /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB532D6573F800F31F5A /* BirthdayViewModel.swift */; };
+		5E56EB902D66EF4E00F31F5A /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB8D2D66EF4E00F31F5A /* PersonTableViewCell.swift */; };
+		5E56EB912D66EF4E00F31F5A /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB8E2D66EF4E00F31F5A /* HomeworkViewController.swift */; };
+		5E56EB922D66EF4E00F31F5A /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB8F2D66EF4E00F31F5A /* UserCollectionViewCell.swift */; };
+		5E56EB942D66FB4200F31F5A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */; };
 		5E6AFBDB2D62C5BB00937D91 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6AFBDA2D62C5BB00937D91 /* RxCocoa */; };
 		5E6AFBDD2D62C5BB00937D91 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6AFBDC2D62C5BB00937D91 /* RxSwift */; };
 /* End PBXBuildFile section */
@@ -78,6 +82,10 @@
 		04F6DC012C5B0D8200667F4D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5E56EB512D65647300F31F5A /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
 		5E56EB532D6573F800F31F5A /* BirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		5E56EB8D2D66EF4E00F31F5A /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		5E56EB8E2D66EF4E00F31F5A /* HomeworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
+		5E56EB8F2D66EF4E00F31F5A /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,7 @@
 		041280222AEF9BAB00972552 /* SeSACRxThreads */ = {
 			isa = PBXGroup;
 			children = (
+				5E56EB8C2D66EF3F00F31F5A /* HomeView */,
 				041280532AEF9C1F00972552 /* SignUp */,
 				041280542AEF9C2600972552 /* SignIn */,
 				0412806D2AEFAD0F00972552 /* SignUpOptional */,
@@ -210,6 +219,17 @@
 				04F6DC012C5B0D8200667F4D /* DetailViewController.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		5E56EB8C2D66EF3F00F31F5A /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				5E56EB8E2D66EF4E00F31F5A /* HomeworkViewController.swift */,
+				5E56EB8D2D66EF4E00F31F5A /* PersonTableViewCell.swift */,
+				5E56EB8F2D66EF4E00F31F5A /* UserCollectionViewCell.swift */,
+				5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,11 +379,15 @@
 				041280562AEFA04800972552 /* SignInViewController.swift in Sources */,
 				5E56EB522D65647300F31F5A /* PhoneViewModel.swift in Sources */,
 				041280282AEF9BAB00972552 /* ViewController.swift in Sources */,
+				5E56EB912D66EF4E00F31F5A /* HomeworkViewController.swift in Sources */,
+				5E56EB922D66EF4E00F31F5A /* UserCollectionViewCell.swift in Sources */,
 				041280632AEFA0CE00972552 /* PointButton.swift in Sources */,
 				04F6DC022C5B0D8200667F4D /* DetailViewController.swift in Sources */,
 				041280242AEF9BAB00972552 /* AppDelegate.swift in Sources */,
 				04F6DBFE2C5B0C0300667F4D /* SearchViewController.swift in Sources */,
+				5E56EB902D66EF4E00F31F5A /* PersonTableViewCell.swift in Sources */,
 				04F6DC002C5B0C2200667F4D /* SearchTableViewCell.swift in Sources */,
+				5E56EB942D66FB4200F31F5A /* HomeViewModel.swift in Sources */,
 				041280732AEFAD4B00972552 /* NicknameViewController.swift in Sources */,
 				0412806A2AEFA91E00972552 /* SignUpViewController.swift in Sources */,
 				041280712AEFAD3D00972552 /* PhoneViewController.swift in Sources */,
