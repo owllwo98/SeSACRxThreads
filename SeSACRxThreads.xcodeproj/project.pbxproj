@@ -38,6 +38,7 @@
 		5E6AFBDD2D62C5BB00937D91 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6AFBDC2D62C5BB00937D91 /* RxSwift */; };
 		5EE8B5582D6BF67400BB0D92 /* NewSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */; };
 		5EE8B55A2D6BF87400BB0D92 /* NewSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */; };
+		5EE8B55C2D6C0B2D00BB0D92 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B55B2D6C0B2D00BB0D92 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewController.swift; sourceTree = "<group>"; };
 		5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewModel.swift; sourceTree = "<group>"; };
+		5EE8B55B2D6C0B2D00BB0D92 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				04F6DC012C5B0D8200667F4D /* DetailViewController.swift */,
 				5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */,
 				5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */,
+				5EE8B55B2D6C0B2D00BB0D92 /* NetWorkManager.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				04F6DC002C5B0C2200667F4D /* SearchTableViewCell.swift in Sources */,
 				5E56EB942D66FB4200F31F5A /* HomeViewModel.swift in Sources */,
 				041280732AEFAD4B00972552 /* NicknameViewController.swift in Sources */,
+				5EE8B55C2D6C0B2D00BB0D92 /* NetWorkManager.swift in Sources */,
 				0412806A2AEFA91E00972552 /* SignUpViewController.swift in Sources */,
 				041280712AEFAD3D00972552 /* PhoneViewController.swift in Sources */,
 				041280262AEF9BAB00972552 /* SceneDelegate.swift in Sources */,

@@ -29,7 +29,20 @@ final class NewSearchViewModel {
         let list = Observable.just(["가", "나", "다"])
         
         input.searchBarTap
+            .throttle(.seconds(1), scheduler: MainScheduler.instance)
             .withLatestFrom(input.searchText)
+            .distinctUntilChanged()
+            .map {
+                guard let text = Int($0) else {
+                    return 20250223
+                }
+                
+                return text
+            }
+            .map { return "\($0)" }
+//            .map {
+//                // 네트워크 통신
+//            }
             .subscribe(with: self) { owner, value in
                 print("next",value)
             } onError: { owner, error in
