@@ -36,6 +36,8 @@
 		5E56EB942D66FB4200F31F5A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */; };
 		5E6AFBDB2D62C5BB00937D91 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6AFBDA2D62C5BB00937D91 /* RxCocoa */; };
 		5E6AFBDD2D62C5BB00937D91 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6AFBDC2D62C5BB00937D91 /* RxSwift */; };
+		5EE8B5582D6BF67400BB0D92 /* NewSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */; };
+		5EE8B55A2D6BF87400BB0D92 /* NewSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		5E56EB8E2D66EF4E00F31F5A /* HomeworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
 		5E56EB8F2D66EF4E00F31F5A /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewController.swift; sourceTree = "<group>"; };
+		5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,8 @@
 				04F6DBFD2C5B0C0300667F4D /* SearchViewController.swift */,
 				04F6DBFF2C5B0C2200667F4D /* SearchTableViewCell.swift */,
 				04F6DC012C5B0D8200667F4D /* DetailViewController.swift */,
+				5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */,
+				5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -378,6 +384,8 @@
 				0412806C2AEFABFE00972552 /* PasswordViewController.swift in Sources */,
 				041280562AEFA04800972552 /* SignInViewController.swift in Sources */,
 				5E56EB522D65647300F31F5A /* PhoneViewModel.swift in Sources */,
+				5EE8B5582D6BF67400BB0D92 /* NewSearchViewController.swift in Sources */,
+				5EE8B55A2D6BF87400BB0D92 /* NewSearchViewModel.swift in Sources */,
 				041280282AEF9BAB00972552 /* ViewController.swift in Sources */,
 				5E56EB912D66EF4E00F31F5A /* HomeworkViewController.swift in Sources */,
 				5E56EB922D66EF4E00F31F5A /* UserCollectionViewCell.swift in Sources */,

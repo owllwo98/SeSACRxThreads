@@ -1,0 +1,49 @@
+//
+//  NewSearchViewModel.swift
+//  SeSACRxThreads
+//
+//  Created by 변정훈 on 2/24/25.
+//
+
+import Foundation
+import SnapKit
+import RxSwift
+import RxCocoa
+
+final class NewSearchViewModel {
+    
+    struct Input {
+        let searchBarTap: ControlEvent<Void>
+        let searchText: ControlProperty<String>
+    }
+    
+    
+    struct  Output {
+        let list: Observable<[String]>
+    }
+    
+    let disposeBag = DisposeBag()
+    
+    func transform(input: Input) -> Output {
+        
+        let list = Observable.just(["가", "나", "다"])
+        
+        input.searchBarTap
+            .withLatestFrom(input.searchText)
+            .subscribe(with: self) { owner, value in
+                print("next",value)
+            } onError: { owner, error in
+                print("onError")
+            } onCompleted: { owner in
+                print("onCompleted")
+            } onDisposed: { owner in
+                print("onDisposed")
+            }
+            .disposed(by: disposeBag)
+
+        
+        
+        return Output(list: list)
+    }
+    
+}
