@@ -34,6 +34,11 @@
 		5E56EB912D66EF4E00F31F5A /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB8E2D66EF4E00F31F5A /* HomeworkViewController.swift */; };
 		5E56EB922D66EF4E00F31F5A /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB8F2D66EF4E00F31F5A /* UserCollectionViewCell.swift */; };
 		5E56EB942D66FB4200F31F5A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */; };
+		5E5E8A192D6D66D7006BF2B6 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5E8A182D6D66D7006BF2B6 /* Differentiator */; };
+		5E5E8A1B2D6D66D7006BF2B6 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 5E5E8A1A2D6D66D7006BF2B6 /* RxDataSources */; };
+		5E5E8A1D2D6D6741006BF2B6 /* MultiSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E8A1C2D6D6741006BF2B6 /* MultiSectionViewController.swift */; };
+		5E5E8A742D6E9DC7006BF2B6 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E8A732D6E9DC7006BF2B6 /* SimpleTableViewController.swift */; };
+		5E5E8A762D6EA24E006BF2B6 /* SimpleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E8A752D6EA24E006BF2B6 /* SimpleCollectionViewController.swift */; };
 		5E6AFBDB2D62C5BB00937D91 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6AFBDA2D62C5BB00937D91 /* RxCocoa */; };
 		5E6AFBDD2D62C5BB00937D91 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E6AFBDC2D62C5BB00937D91 /* RxSwift */; };
 		5EE8B5582D6BF67400BB0D92 /* NewSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */; };
@@ -89,6 +94,9 @@
 		5E56EB8E2D66EF4E00F31F5A /* HomeworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
 		5E56EB8F2D66EF4E00F31F5A /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5E5E8A1C2D6D6741006BF2B6 /* MultiSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSectionViewController.swift; sourceTree = "<group>"; };
+		5E5E8A732D6E9DC7006BF2B6 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		5E5E8A752D6EA24E006BF2B6 /* SimpleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewController.swift; sourceTree = "<group>"; };
 		5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewController.swift; sourceTree = "<group>"; };
 		5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSearchViewModel.swift; sourceTree = "<group>"; };
 		5EE8B55B2D6C0B2D00BB0D92 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
@@ -99,8 +107,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5E8A192D6D66D7006BF2B6 /* Differentiator in Frameworks */,
 				5E6AFBDD2D62C5BB00937D91 /* RxSwift in Frameworks */,
 				5E6AFBDB2D62C5BB00937D91 /* RxCocoa in Frameworks */,
+				5E5E8A1B2D6D66D7006BF2B6 /* RxDataSources in Frameworks */,
 				04B0606A2D62A9D300A3155E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +155,7 @@
 		041280222AEF9BAB00972552 /* SeSACRxThreads */ = {
 			isa = PBXGroup;
 			children = (
+				5E5E8A722D6E9D80006BF2B6 /* CompositionalDiffable */,
 				5E56EB8C2D66EF3F00F31F5A /* HomeView */,
 				041280532AEF9C1F00972552 /* SignUp */,
 				041280542AEF9C2600972552 /* SignIn */,
@@ -226,6 +237,7 @@
 				5EE8B5572D6BF67400BB0D92 /* NewSearchViewController.swift */,
 				5EE8B5592D6BF87400BB0D92 /* NewSearchViewModel.swift */,
 				5EE8B55B2D6C0B2D00BB0D92 /* NetWorkManager.swift */,
+				5E5E8A1C2D6D6741006BF2B6 /* MultiSectionViewController.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -239,6 +251,15 @@
 				5E56EB932D66FB4200F31F5A /* HomeViewModel.swift */,
 			);
 			path = HomeView;
+			sourceTree = "<group>";
+		};
+		5E5E8A722D6E9D80006BF2B6 /* CompositionalDiffable */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E8A732D6E9DC7006BF2B6 /* SimpleTableViewController.swift */,
+				5E5E8A752D6EA24E006BF2B6 /* SimpleCollectionViewController.swift */,
+			);
+			path = CompositionalDiffable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +282,8 @@
 				04B060692D62A9D300A3155E /* SnapKit */,
 				5E6AFBDA2D62C5BB00937D91 /* RxCocoa */,
 				5E6AFBDC2D62C5BB00937D91 /* RxSwift */,
+				5E5E8A182D6D66D7006BF2B6 /* Differentiator */,
+				5E5E8A1A2D6D66D7006BF2B6 /* RxDataSources */,
 			);
 			productName = SeSACRxThreads;
 			productReference = 041280202AEF9BAB00972552 /* SeSACRxThreads.app */;
@@ -337,6 +360,7 @@
 			packageReferences = (
 				04B060682D62A9D300A3155E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				5E6AFBD92D62C5BB00937D91 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				5E5E8A172D6D66D7006BF2B6 /* XCRemoteSwiftPackageReference "RxDataSources" */,
 			);
 			productRefGroup = 041280212AEF9BAB00972552 /* Products */;
 			projectDirPath = "";
@@ -384,11 +408,13 @@
 				0412806F2AEFAD2D00972552 /* BirthdayViewController.swift in Sources */,
 				5E56EB542D6573F800F31F5A /* BirthdayViewModel.swift in Sources */,
 				041280652AEFA2F000972552 /* SignTextField.swift in Sources */,
+				5E5E8A762D6EA24E006BF2B6 /* SimpleCollectionViewController.swift in Sources */,
 				0412806C2AEFABFE00972552 /* PasswordViewController.swift in Sources */,
 				041280562AEFA04800972552 /* SignInViewController.swift in Sources */,
 				5E56EB522D65647300F31F5A /* PhoneViewModel.swift in Sources */,
 				5EE8B5582D6BF67400BB0D92 /* NewSearchViewController.swift in Sources */,
 				5EE8B55A2D6BF87400BB0D92 /* NewSearchViewModel.swift in Sources */,
+				5E5E8A1D2D6D6741006BF2B6 /* MultiSectionViewController.swift in Sources */,
 				041280282AEF9BAB00972552 /* ViewController.swift in Sources */,
 				5E56EB912D66EF4E00F31F5A /* HomeworkViewController.swift in Sources */,
 				5E56EB922D66EF4E00F31F5A /* UserCollectionViewCell.swift in Sources */,
@@ -398,6 +424,7 @@
 				04F6DBFE2C5B0C0300667F4D /* SearchViewController.swift in Sources */,
 				5E56EB902D66EF4E00F31F5A /* PersonTableViewCell.swift in Sources */,
 				04F6DC002C5B0C2200667F4D /* SearchTableViewCell.swift in Sources */,
+				5E5E8A742D6E9DC7006BF2B6 /* SimpleTableViewController.swift in Sources */,
 				5E56EB942D66FB4200F31F5A /* HomeViewModel.swift in Sources */,
 				041280732AEFAD4B00972552 /* NicknameViewController.swift in Sources */,
 				5EE8B55C2D6C0B2D00BB0D92 /* NetWorkManager.swift in Sources */,
@@ -754,6 +781,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		5E5E8A172D6D66D7006BF2B6 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
 		5E6AFBD92D62C5BB00937D91 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
@@ -769,6 +804,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 04B060682D62A9D300A3155E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		5E5E8A182D6D66D7006BF2B6 /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E5E8A172D6D66D7006BF2B6 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		5E5E8A1A2D6D66D7006BF2B6 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E5E8A172D6D66D7006BF2B6 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
 		};
 		5E6AFBDA2D62C5BB00937D91 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -37,6 +37,8 @@ class NewSearchViewController: UIViewController {
         
         bind()
         
+        
+        // MARK: 일반 통신
 //        NetWorkManager.shared.callBoxOffice(date: "20250223") { response in
 //            switch response {
 //            case .success(let success):
@@ -46,11 +48,12 @@ class NewSearchViewController: UIViewController {
 //            }
 //        }
         
-        NetWorkManager.shared.callBoxOffice(date: "20250223")
-            .subscribe(with: self) { owner, value in
-                dump(value)
-            }
-            .disposed(by: disposeBag)
+        // MARK: Observable<Movie> 통신
+//        NetWorkManager.shared.callBoxOffice(date: "20250223")
+//            .subscribe(with: self) { owner, value in
+//                dump(value)
+//            }
+//            .disposed(by: disposeBag)
     }
     
     func bind() {
@@ -62,7 +65,8 @@ class NewSearchViewController: UIViewController {
         output.list
             .bind(to: tableView.rx.items(cellIdentifier: SearchTableViewCell.identifier, cellType: SearchTableViewCell.self)) { (row, element, cell) in
                 
-                cell.appNameLabel.text = element
+                cell.appNameLabel.text = element.movieNm
+//                cell.downloadButton.setTitle(element.openDt, for: .normal)
                 
             }
             .disposed(by: disposeBag)
@@ -100,7 +104,10 @@ class NewSearchViewController: UIViewController {
 //        tableView.rx.itemSelected
 //            .flatMap { _ in
 //                // dispose 가 될 수 있는 Observable 을 사용하는게 좋다
+//                let disposeBag = DisposeBag()
 //                Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
+//                
+//
 //            }
 //            .subscribe(with: self) { owner, value in
 //               print("onNext: \(value )")
